@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Moon</title>
+</head>
+<body>
+        <div class="preview">
+            <div id="loaderImg" class="loding">
+                <img src="img/giphy.gif" alt="">
+                <span id="loadertxt"></span>
+            </div>
+            <div style="z-index: 1;
+                        position: absolute;
+                        width: fit-content;
+                        height: fit-content;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        top: 80%;
+                        align-items: center;">
+                <div>
+                    <a href="https://x.com/SolanaGrumpyCat" target="_blank">
+                        <i class="fab fa-twitter" style="font-size: 60px; padding: 0 20px;"></i>
+                    </a>
+                    <a href="https://t.me/solanagrumpycat" target="_blank">
+                        <i class="fab fa-telegram-plane" style="font-size: 60px; padding: 0 20px;"></i>
+                    </a>
+                    <!-- Note: Font Awesome might not have an icon for DexTools. You may need to use a custom icon or choose another representative icon. For this example, I'll use a chart icon as a placeholder -->
+                    <a href="https://www.dextools.io/" target="_blank">
+                        <img src="img/dextools.svg" alt="Custom Icon" width="50" height="50" style="margin: 0 20px;">
+                    </a>
+                    <a href="https://raydium.io/swap/?inputCurrency=sol&amp;outputCurrency=8DBQQaX18ZWVx7LGpNiRKQVzuHKzL98Y3ESQJVkZxwNr&amp;fixed=in"
+                        target="_blank">
+                        <img src="img/raydium.png" alt="Custom Icon" width="50" height="50" style="margin: 0 20px;">
+                    </a>
+                </div>
+                <br>
+                <span class="btmText">CA: 8DBQQaX18ZWVx7LGpNiRKQVzuHKzL98Y3ESQJVkZxwNr</span>
+            </div>
+        </div>
+        <div class="holes">
+            <img class="alien" src="img/alien.png" alt="">
+            <div class="counter">
+                <span class="alienConter">0</span>
+                <span >/15</span>
+            </div>
+            <span class="messageWinner">THE ALIEN WINNER</span>
+            <span class="helipad">"this is the base text"</span>
+            <span class="redacted">"this is the redacted text"</span>
+        </div>
+        <div class="message">
+            <div id="section3">
+                <h2>Roadmap</h2>
+                <ul>
+                    <li>Phase 1: "Guess We're Doing This?" - We throw a digital coin into the vast crypto-fountain and cross our
+                        fingers.</li>
+                    <li>Phase 2: "Partnerships? Maybe?" - We slide into DMs of potential businesses. No ghosting, please!</li>
+                    <li> Phase 3: "Universal Domination...or Coffee?" - We'll either change the world or grab a latte. Let's see
+                        how it goes!</li>
+                </ul>
+            </div>
+            <div id="section2">
+                <h2>About Us</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam tempora sed in. Necessitatibus alias quam esse et labore itaque deserunt quibusdam expedita, natus, laudantium facere ducimus saepe! Atque, mollitia quibusdam?</li>
+                </ul>
+            </div>
+            <button class="btn">Close</button>
+        </div>
+        
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "./js/THREE/three.module.js",
+                "three/addons/": "./js/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="./js/index.obfuscated.js"></script>
+</body>
+</html>
